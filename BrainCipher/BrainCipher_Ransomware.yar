@@ -58,5 +58,5 @@ rule BrainCipher_Ransomware
         $3 = { 8b c1 33 d2 f7 f6 8a c1 8a 14 17 02 54 05 00 02 d3 8a 5c 15 00 8a 54 1d 00 86 54 05 00 88 54 1d 00 41 81 f9 00 03 00 00 75 d6 5d 33 c9 8b 7d 0c be 40 00 00 00 55 8b 6d 10 }
 
     condition:
-        $1 or $2 or $3
+        uint16(0) == 0x5a4d and filesize < 170KB and ($1 or $2 or $3)
 }
