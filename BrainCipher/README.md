@@ -1,0 +1,3 @@
+Brain Cipher Ransomware represents a severe threat due to its advanced capabilities, which allow it to encrypt essential data on compromised systems and hold it hostage until a ransom is paid. Since its discovery in early 2024, Brain Cipher has gained a notorious reputation for its sophisticated encryption protocols and its effectiveness in evading standard cybersecurity measures.
+
+To aid in the detection of Brain Cipher Ransomware, the following YARA rules have been developed. These rules help identify the presence of Brain Cipher by searching for specific characteristics and patterns associated with the ransomware.
